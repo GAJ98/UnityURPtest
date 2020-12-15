@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 586963191}
   - component: {fileID: 586963190}
   m_Layer: 0
-  m_Name: UMA dummy
+  m_Name: UMA dummyM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -317,7 +317,21 @@ MonoBehaviour:
     dynamicallyAddFromResources: 0
     resourcesFolderPath: 
   characterColors:
-    _colors: []
+    _colors:
+    - name: Hair
+      channelMask:
+      - {r: 0.38679248, g: 0.25415856, b: 0.056559276, a: 1}
+      - {r: 1, g: 1, b: 1, a: 1}
+      - {r: 1, g: 1, b: 1, a: 1}
+      channelAdditiveMask:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      _name: 
+      _color: {r: 1, g: 1, b: 1, a: 1}
+      _metallicGloss: {r: 0, g: 0, b: 0, a: 0}
+      Raw: 0
+      valuesConverted: 0
   predefinedDNA:
     PreloadValues: []
   loadPathType: 0
